@@ -1,4 +1,6 @@
 package com.daelim.springtest.main.api.model.dto
 
-class UserRequestDto {
-}
+data class UserRequestDto(
+    val email: String,
+    val password: String
+)
