@@ -30,8 +30,8 @@ class LottoController(private val lottoService: LottoService) {
     }
 
     @GetMapping("/check")
-    fun checkLottoResult(@RequestBody requestDto: LottoResultRequestDto): ResponseEntity<LottoResultResponseDto> {
+    fun checkLottoResult(@RequestBody requestDto: LottoResultRequestDto): ResponseEntity<List<LottoResultResponseDto>> {
         val lottoResult = lottoService.checkLottoResult(requestDto)
-        return ResponseEntity.ok(lottoResult)
+        return ResponseEntity.ok(listOf(lottoResult))
     }
 }
