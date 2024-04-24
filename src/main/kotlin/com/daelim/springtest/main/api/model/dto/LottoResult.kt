@@ -1,4 +1,7 @@
 package com.daelim.springtest.main.api.model.dto
 
-class LottoResult {
-}
+data class LottoResult(
+    val numbers: List<Int>,
+    val correctNumbers: Set<Int>,
+    val result: String
+)
