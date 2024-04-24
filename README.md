@@ -2,4 +2,5 @@
 
 ### 중간고사 api로또
 
-[screencapture-localhost-8080-swagger-ui-index-html-2024-04-24-15_31_36.pdf](https://github.com/mimgggg4444/0424-mobile/files/15089660/screencapture-localhost-8080-swagger-ui-index-html-2024-04-24-15_31_36.pdf)
+
+![screencapture-lotto-minq-work-swagger-ui-index-html-2024-04-24-15_32_33](https://github.com/mimgggg4444/0424-mobile/assets/66135779/27264c23-ae88-440a-aeb3-de1c275db1ff)
